@@ -1,4 +1,4 @@
-let game = () => {
+let startdagame = () => {
 	const createImageElement = function(src) {
 		var self = document.createElement("img");
 		self.setAttribute("src",src);
@@ -135,4 +135,4 @@ let game = () => {
 	}
 }
 
-play.onclick = game
+play.onclick = startdagame
